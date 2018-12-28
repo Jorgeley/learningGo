@@ -9,8 +9,12 @@ func swap(x, y string) (string, string) {
 }
 
 func main() {
-	//notice the attribution operator :=
-	a, b := swap("hello", "world")
+	/*
+	 * Outside a function, every statement begins with a 
+	 * keyword (var, func, and so on) and so the := construct is not available.
+	 * the short assignment ':=' constructor replaces 'var' declaration with types
+	 */
+	a, b := swap("hello", "world") //notice that 'var' declaration and types are missing since they are implicit
 	fmt.Println(a, b)
 }
 
