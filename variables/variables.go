@@ -34,5 +34,7 @@ func main() {
 	*/
 	var i int
 	fmt.Println(i, c, python, java)
+
+	l = 3.12 //if no type specified, it's automatically inferred, in this case, float
 }
 
