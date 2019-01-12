@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 /*functions can return multiple results.
-notice the return types within the brackets*/
+notice the return types within the 2nd brackets
+           arguments        return*/
 func swap(x, y string) (string, string) {
 	return y, x
 }
